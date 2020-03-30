@@ -1,0 +1,148 @@
+
+/*
+             Master stylesheet
+============================================
+    Template Name : Minimo
+    Author: Rahman Kader
+	Author Url : https://Rahmankader.com
+	Descriptions : PSD TO HTML Practise
+	Version: 1.0.0
+	Tag: blog
+
+*/
+
+
+/*
+			Table Of Contents
+============================================			
+	1. Typrography
+	2. Heading
+	3
+	4
+	5
+	6
+	7
+
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/*==========================================
+			Typrography
+============================================*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,900|Ubuntu:300&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #626262;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+
+/*==========================================
+			    Header
+============================================*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+	
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+.logo{
+	width: 10%;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	
+}
+.menu ul{
+	text-align: right;
+	margin: 0;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:  #626262;
+	padding: 0 60px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: black;
+	transition: .3s all ease-in-out;
+}
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 600px;
+}
+.hp p{
+	font-size: 16px;	
+}
+
+.hp h5{
+	font-size: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
